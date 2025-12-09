@@ -1,0 +1,27 @@
+title: "Personal Blog"
+author: "Camilo Nunez-Fernandez"
+email: "camilo@nunezf.cl"
+description: >-
+  Personal blog about data engineering, AI, homelabs, and other obsessions.
+
+baseurl: ""
+url: "camilo-nunez.github.io"
+
+theme: minima
+
+plugins:
+  - jekyll-feed
+
+lang: en
+timezone: America/Santiago
+
+header_pages:
+  - about.md
+  - projects.md
+
+minima:
+  social_links:
+    - platform: github
+      user_url: "https://github.com/camilo-nunez"
+    - platform: linkedin
+      user_url: "https://www.linkedin.com/in/cnunez/"
